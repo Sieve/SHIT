@@ -1,0 +1,371 @@
+#Format is:
+#Type
+#PARTTYPES
+#Name
+#Abbreviation
+#Invisopoints
+#DMG Air
+#DMG Ground
+#Homing
+#Long Range
+#Damage Range
+#Reload
+#Cst
+#Credit
+####################FIGHTER SPWS####################
+7
+High Power Air-to-Air
+HPAA
+0
+E+	D	D	D	D
+F	F	F	F	F
+D+	D+	D+	D+	C
+E+	E+	E+	D	D
+F	F	F	F	F
+B	B	B	B	B+
+12	27	35	64	91
+0	59,200	115,200	361,600	788,800
+####################################################
+7
+Modified High Power Missiles
+MHPM
+0
+E+	D	D	D	D
+F	F	F	F	F
+D+	D+	D+	D+	C
+E+	E+	E+	D	D
+F	F	F	F	F
+B	B	B	B	B+
+12	28	36	67	96
+0	61,050	118,800	372,900	813,450
+####################################################
+7
+High Velocity Air-to-Air
+HVAA
+0
+F+	E	E	E	E
+F	F	F	F	F
+C	C	C	C	C
+C+	C+	C+	B	B
+F	F	F	F	F
+A	A+	A+	A+	A+
+10	24	32	58	84
+0	55,500	108,000	339,000	739,500
+####################################################
+7
+High Capacity Air to Air
+HCAA
+0
+F+	E	E	E	E
+F	F	F	F	F
+D+	D+	D+	D+	C
+E	E+	E+	E+	E+
+F	F	F	F	F
+S	S	S	S	S
+10	24	32	58	84
+0	55,500	108,000	339,000	739,500
+####################################################
+7
+Semi-Active Air-to-Air Missiles
+SAAM
+0
+E+	E+	E+	E+	E+
+F	F	F	F	F
+A+	S	S	S	S
+C+	C+	C+	B	B
+F	F	F	F	F
+B+	B+	B+	A	A
+10	24	32	58	84
+0	55,500	108,000	339,000	739,500
+####################################################
+7
+Quick-Manuver Air-to-Air Missiles
+QAAM
+0
+E+	E+	E+	E+	E+
+F	F	F	F	F
+C+	B	B	B	B
+E+	E+	E+	D	D
+F	F	F	F	F
+B+	B+	B+	A	A
+10	24	32	58	84
+0	55,500	108,000	339,000	739,500
+####################################################
+7
+4 Air-to-Air Missiles
+4AAM
+0
+E+	D	D	D	D
+F	F	F	F	F
+C	C	C	C	C
+D	D+	D+	D+	D+
+F	F	F	F	F
+B	B	B	B	B+
+14	30	38	69	98
+0	62,900	122,400	384,200	838,100
+####################################################
+7
+6 Air-to-Air Missiles
+6AAM
+0
+D+	C	C	C	C
+F	F	F	F	F
+C	C	C	C	C
+C+	C+	C+	C+	B
+F	F	F	F	F
+D	D+	D+	D+	C
+16	33	42	74	105
+0	66,600	129,600	406,800	887,400
+####################################################
+#7
+#Long range Air-to-Air Missiles
+#LAAM
+#0
+#
+#
+#
+#
+#
+#
+#
+#
+####################ATTACKER SPWS###################
+6
+Long-Range Air-to-Ground Missiles
+LAGM
+0
+F	F	F	F	F
+E	E+	E+	E+	E+
+B+	B+	B+	B+	B+
+C+	B	B	B	B+
+F+	F+	E	E	E
+B	B	B	B	B+
+12	27	35	64	91
+0	59,200	115,200	361,600	788,800
+####################################################
+6
+Long-Range Anti-Ship Missiles
+LASM
+0
+F	F	F	F	F
+E	E+	E+	E+	D
+B+	B+	B+	B+	B+
+C+	B	B	B	B+
+F+	F+	E	E	E
+B	B	B	B	B+
+12	27	35	64	91
+0	59,200	115,200	361,600	788,800
+####################################################
+6
+4 Air-to-Ground Missiles
+4AGM
+0
+F	F	F	F	F
+E+	D	D	D	D
+B+	B+	B+	B+	B+
+D	D	D	D	D+
+F	F	F	F	F
+B	B	B	B	B+
+10	24	32	58	84
+0	55,500	108,000	339,000	739,500
+####################################################
+6
+Standoff Dispenser
+SOD
+0
+F	F	F	F	F
+E	E+	E+	D	D+
+B+	B+	B+	B+	B+
+D+	C	C	C	C+
+E	E+	E+	D	D+
+B	B	B	B	B+
+12	27	35	64	91
+0	59,200	115,200	361,600	788,000
+####################################################
+6
+Modified Standoff Dispenser
+MSOD
+0
+F	F	F	F	F
+D+	C	C+	B	A
+B+	B+	B+	B+	B+
+B	B	B+	B+	A
+D+	C	B	A	S+
+B	B	B	B	B+
+15	35	48	81	115
+0	712,250	1,386,000	4,350,500	9,490,250
+####################################################
+6
+Unguided Bomb
+UGB
+0
+F	F	F	F	F
+E	E	E	E+	E+
+F	F	F	F	F
+F	F	F	F	F
+E	E	E	E+	E+
+C	C	C+	C+	B
+10	24	32	58	84
+0	55,500	108,000	339,000	739,500
+####################################################
+6
+Modified Unguided Bomb
+MUGB
+0
+F	F	F	F	F
+E+	E+	E+	E+	D
+F	F	F	F	F
+F	F	F	F	F
+E	E	E	E+	E+
+B+	A	A	A+	A+
+13	32	44	76	107
+0	671,550	1,306,800	4,101,900	8,947,950
+####################################################
+6
+Fuel-Air Explosive Bomb
+FAEB
+0
+F	F	F	F	F
+E+	D	D	D	D
+F	F	F	F	F
+F	F	F	F	F
+D+	D+	D+	C	C
+B	B	B	B	B+
+14	30	38	69	98
+0	62,900	122,400	384,200	838,100
+####################################################
+6
+Self Forging Fragment Submunitions
+SFFS
+0
+F	F	F	F	F
+D	C	C+	B	A
+F	F	F	F	F
+F	F	F	F	F
+C	C	C	C	C+
+B+	B+	B+	B+	A
+8	21	28	53	77
+0	51,800	100,800	316,400	690,200
+####################################################
+6
+Guided Precision Bomb
+GPB
+0
+F	F	F	F	F
+D	D+	D+	C	C
+D	D	D+	C	C
+E	E	E	E+	E+
+F+	F+	F+	F+	E
+C+	C+	B	B	B
+14	30	38	69	98
+0	62,900	122,400	384,200	838,100
+####################################################
+6
+Enhanced Guided Precision Bomb
+EGPB
+0
+F	F	F	F	F
+D	D+	D+	C	C
+D	D	D+	C	C
+E	E	E	E+	E+
+F+	F+	F+	F+	E
+C+	C+	B	B	B
+14	31	40	72	103
+0	64,750	126,000	395,500	862,750
+####################SPECIAL SPWS####################
+8
+Machine Gun Pod
+MGP
+0
+F	F	F	F	F
+F	F	F	F	F
+F	F	F	F	F
+E	E	E	E+	E+
+F	F	F	F	F
+S+	S+	S+	S+	S+
+4	15	21	43	63
+0	44,400	86,400	271,200	591,600
+####################################################
+8
+Rocket Launcher
+RKTL
+0
+F	F	F	F	F
+E	E+	E+	E+	E+
+F	F	F	F	F
+E	E+	E+	E+	D
+F+	F+	F+	F+	F+
+A	A	A	A+	A+
+6	18	25	48	70
+0	48,100	93,600	293,800	640,900
+####################################################
+8
+Electronic Countermeasures
+ECM
+0
+F	F	F	F	F
+F	F	F	F	F
+F	F	F	F	F
+F	F	F	F	F
+F	F	F	F	F
+D	D+	D+	D+	C
+2	12	18	38	56
+0	40,700	79,200	248,600	542,300
+####################################################
+8
+Electronic Support Measures
+ESM
+0
+F	F	F	F	F
+F	F	F	F	F
+F	F	F	F	F
+F	F	F	F	F
+F	F	F	F	F
+D	D+	D+	D+	C
+2	12	18	38	56
+0	40,700	79,200	248,600	542,300
+####################################################
+8
+Tactical Laser System
+TLS
+0
+C+	C+	C+	B	B
+S+	S+	S+	S+	S+
+F	F	F	F	F
+C+	C+	C+	C+	C+
+F	F	F	F	F
+E	E+	D	D	D+
+12	27	35	64	91
+0	59,200	115,200	361,600	788,800
+####################################################
+8
+Anti-Retina Missiles
+MPBM
+0
+D+	C	C	C	C
+D+	C	C	C	C
+C	C	C	C	C
+D+	C	C	C	C+
+C	C	C	C	C
+D	D+	D+	C	C
+16	33	42	74	105
+0	66,600	129,600	406,800	887,400
+####################################################
+8
+Multi-Launch Standard Missiles
+MSTM
+0
+E	E	E	E+	E+
+E	E	E	E+	E+
+D+	D+	D+	D+	C
+E	E	E	E+	E+
+F	F	F	F	F
+A+	A+	A+	A+	A+
+17	XX	XX	XX	XX
+0	62,900	122,400	384,200	838,100
+################SPECIAL SPECIAL SPWS################
+#[9||0|]
+#####################BOMBER SPWS####################
+#[10||0|]
+####################################################
+%

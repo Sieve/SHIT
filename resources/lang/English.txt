@@ -1,0 +1,8 @@
+# Basic words/phrases to replace what needs to be replaced
+None
+# Roles
+ATTACKER,FIGHTER,MULTIROLE
+# SP Weapons
+test
+# Countries
+test

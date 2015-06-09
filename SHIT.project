@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="SHIT" InternalType="GUI">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0014Static-Release000000000000]]>
+    </Plugin>
+    <Plugin Name="CMakePlugin">
+      <![CDATA[[{
+  "name": "Debug",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "Static",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "Static-Release",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }]]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="main.cpp"/>
+    <File Name="MainFrame.cpp"/>
+    <File Name="wxcrafter.cpp"/>
+    <File Name="wxcrafter_bitmaps.cpp"/>
+    <File Name="PlaneInfoHandler.cpp"/>
+    <File Name="ImagePanel.cpp"/>
+    <File Name="PipBar.cpp"/>
+    <File Name="SaveManager.cpp"/>
+    <File Name="ResearchTree.cpp"/>
+    <File Name="TreePanel.cpp"/>
+    <File Name="SpecialAircraftPanel.cpp"/>
+    <File Name="SpecialAircraft.cpp"/>
+    <File Name="ResearchTreeWindow.cpp"/>
+    <File Name="SpecialAircraftWindow.cpp"/>
+    <File Name="SpecialWeapon.cpp"/>
+    <File Name="SpecialWeaponWindow.cpp"/>
+    <File Name="SHITFrame.cpp"/>
+    <File Name="SHITScrolledWindow.cpp"/>
+    <File Name="SetBuilder.cpp"/>
+    <File Name="SetPanel.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <File Name="MainFrame.h"/>
+    <File Name="PlaneInfoHandler.h"/>
+    <File Name="DataStructs.h"/>
+    <File Name="ImagePanel.h"/>
+    <File Name="PipBar.h"/>
+    <File Name="patch.h"/>
+    <File Name="resource.h"/>
+    <File Name="SaveManager.h"/>
+    <File Name="ResearchTree.h"/>
+    <File Name="TreePanel.h"/>
+    <File Name="SpecialAircraftPanel.h"/>
+    <File Name="SpecialAircraft.h"/>
+    <File Name="ResearchTreeWindow.h"/>
+    <File Name="SpecialAircraftWindow.h"/>
+    <File Name="wxcrafter.h"/>
+    <File Name="SpecialWeapon.h"/>
+    <File Name="SpecialWeaponWindow.h"/>
+    <File Name="SHITFrame.h"/>
+    <File Name="SHITScrolledWindow.h"/>
+    <File Name="SetBuilder.h"/>
+    <File Name="SetPanel.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="resources">
+    <File Name="wxcrafter.wxcp"/>
+    <VirtualDirectory Name="lang">
+      <File Name="resources/lang/English.txt"/>
+      <File Name="resources/lang/French.txt"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="icons">
+      <File Name="resources/icons/AV-8B Harrier.png"/>
+      <File Name="resources/icons/F-4E Phantom II.png"/>
+      <File Name="resources/icons/F-4G Wild Weasel.png"/>
+      <File Name="resources/icons/F-14A Tomcat.png"/>
+      <File Name="resources/icons/F-16C Fighting Falcon.png"/>
+      <File Name="resources/icons/MiG-21 Fishbed.png"/>
+      <File Name="resources/icons/Mirage 2000-5.png"/>
+      <File Name="resources/icons/None.png"/>
+      <File Name="resources/icons/pips.png"/>
+      <File Name="resources/icons/pips_bottom.png"/>
+      <File Name="resources/icons/pips_top.png"/>
+      <File Name="resources/icons/progress_under.png"/>
+      <File Name="resources/icons/progressbar.png"/>
+      <File Name="resources/icons/pipbar.png"/>
+      <File Name="resources/icons/None.xpm"/>
+      <File Name="resources/icons/pips.xpm"/>
+      <File Name="resources/icons/pipbar.xpm"/>
+      <File Name="resources/icons/progress_under.xpm"/>
+      <File Name="resources/icons/Attacker.xpm"/>
+      <File Name="resources/icons/Fighter.xpm"/>
+      <File Name="resources/icons/Multirole.xpm"/>
+      <File Name="resources/icons/Bomber.xpm"/>
+      <File Name="resources/icons/SPW.xpm"/>
+      <File Name="resources/icons/1Star.xpm"/>
+      <File Name="resources/icons/2Star.xpm"/>
+      <File Name="resources/icons/3Star.xpm"/>
+      <File Name="resources/icons/4Star.xpm"/>
+    </VirtualDirectory>
+    <File Name="resources/PlaneText.txt"/>
+    <File Name="resources/PlaneText_txt.h"/>
+    <File Name="resources/ResearchTreeData.txt"/>
+    <File Name="resources/SpecialAircraftData.txt"/>
+    <File Name="resources/SpecialWeaponData.txt"/>
+    <File Name="SHIT.xpm"/>
+    <File Name="win_resources.rc"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="-std=c++11" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="MinGW ( CodeLite-4.8.1 )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall;$(shell wx-config --cflags --debug)" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="$(shell wx-config --libs --debug)" Required="yes"/>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="yes" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="MinGW ( CodeLite-4.8.1 )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;$(shell wx-config --cflags)" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="$(shell wx-config --libs);-mwindows" Required="yes"/>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="no" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Static-Release" CompilerType="MinGW ( CodeLite-4.8.1 )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall;$(shell wx-config --cflags)" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="$(shell wx-config --libs);-mwindows" Required="yes"/>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./StaticRelease" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="no" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="Static" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

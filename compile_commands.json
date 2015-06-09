@@ -1,0 +1,21 @@
+[{
+  "file": "C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\main.cpp",
+  "directory": "C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT",
+  "command": "C:/MinGW-4.8.1/bin/g++.exe  -c C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\main.cpp -o C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\main.cpp.o  -g  -O0  -Wall  -mthreads -DHAVE_W32API_H -D__WXMSW__ -D__WXDEBUG__ -D_UNICODE -IC:/wx/wxWidgets-3.0.1/lib/gcc_dll/mswud -IC:/wx/wxWidgets-3.0.1/include -DWXUSINGDLL -Wno-ctor-dtor-privacy -pipe -fmessage-length=0  -fno-keep-inline-dllexport \n -I. -I."
+ }, {
+  "file": "C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\MainFrame.cpp",
+  "directory": "C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT",
+  "command": "C:/MinGW-4.8.1/bin/g++.exe  -c C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\MainFrame.cpp -o C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\MainFrame.cpp.o  -g  -O0  -Wall  -mthreads -DHAVE_W32API_H -D__WXMSW__ -D__WXDEBUG__ -D_UNICODE -IC:/wx/wxWidgets-3.0.1/lib/gcc_dll/mswud -IC:/wx/wxWidgets-3.0.1/include -DWXUSINGDLL -Wno-ctor-dtor-privacy -pipe -fmessage-length=0  -fno-keep-inline-dllexport \n -I. -I."
+ }, {
+  "file": "C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\wxcrafter.cpp",
+  "directory": "C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT",
+  "command": "C:/MinGW-4.8.1/bin/g++.exe  -c C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\wxcrafter.cpp -o C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\wxcrafter.cpp.o  -g  -O0  -Wall  -mthreads -DHAVE_W32API_H -D__WXMSW__ -D__WXDEBUG__ -D_UNICODE -IC:/wx/wxWidgets-3.0.1/lib/gcc_dll/mswud -IC:/wx/wxWidgets-3.0.1/include -DWXUSINGDLL -Wno-ctor-dtor-privacy -pipe -fmessage-length=0  -fno-keep-inline-dllexport \n -I. -I."
+ }, {
+  "file": "C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\wxcrafter_bitmaps.cpp",
+  "directory": "C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT",
+  "command": "C:/MinGW-4.8.1/bin/g++.exe  -c C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\wxcrafter_bitmaps.cpp -o C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\wxcrafter_bitmaps.cpp.o  -g  -O0  -Wall  -mthreads -DHAVE_W32API_H -D__WXMSW__ -D__WXDEBUG__ -D_UNICODE -IC:/wx/wxWidgets-3.0.1/lib/gcc_dll/mswud -IC:/wx/wxWidgets-3.0.1/include -DWXUSINGDLL -Wno-ctor-dtor-privacy -pipe -fmessage-length=0  -fno-keep-inline-dllexport \n -I. -I."
+ }, {
+  "file": "C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\PlaneInfoHandler.cpp",
+  "directory": "C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT",
+  "command": "C:/MinGW-4.8.1/bin/g++.exe  -c C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\PlaneInfoHandler.cpp -o C:\\Users\\Spencer\\Documents\\CodeLiteProjects\\SHIT\\PlaneInfoHandler.cpp.o  -g  -O0  -Wall  -mthreads -DHAVE_W32API_H -D__WXMSW__ -D__WXDEBUG__ -D_UNICODE -IC:/wx/wxWidgets-3.0.1/lib/gcc_dll/mswud -IC:/wx/wxWidgets-3.0.1/include -DWXUSINGDLL -Wno-ctor-dtor-privacy -pipe -fmessage-length=0  -fno-keep-inline-dllexport \n -I. -I."
+ }]

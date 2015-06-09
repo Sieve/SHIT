@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="SHIT" Database="">
+  <Project Name="SHIT" Path="SHIT.project" Active="Yes"/>
+  <Environment>
+    <![CDATA[]]>
+  </Environment>
+  <Project Name="ImageParser" Path="ImageParser/ImageParser.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Project Name="SHIT" ConfigName="Debug"/>
+      <Project Name="ImageParser" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="SHIT" ConfigName="Release"/>
+      <Project Name="ImageParser" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Static-Release" Selected="no">
+      <Project Name="SHIT" ConfigName="Static-Release"/>
+      <Project Name="ImageParser" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

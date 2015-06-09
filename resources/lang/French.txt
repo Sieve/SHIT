@@ -1,0 +1,8 @@
+# Basic words/phrases to replace what needs to be replaced
+Au revoire
+# Roles
+BONJOUR,BONJOUR,BONJOUR
+# SP Weapons
+bonjour
+# Countries
+bonjour

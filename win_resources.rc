@@ -1,0 +1,9 @@
+aaaaa ICON "Mobius.ico"
+
+#include "wx/msw/wx.rc"
+#include "resource.h"
+1 24 "wx/msw/wx.manifest"
+IDR_MYTEXTFILE TEXTFILE "resources\PlaneText.txt"
+IDR_RESEARCHTREEDATA TEXTFILE "resources\ResearchTreeData.txt"
+IDR_SPECIALAIRCRAFTDATA TEXTFILE "resources\SpecialAircraftData.txt"
+IDR_SPECIALWEAPONDATA TEXTFILE "resources\SpecialWeaponData.txt"
